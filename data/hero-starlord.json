@@ -1,0 +1,14 @@
+{
+    "nickname": "Звёздный Лорд",
+    "name": "Питер Джейсон Квилл",
+    "type": "Человек",
+    "growth": "189 см",
+    "weight": "79 кг",
+    "picture-src": "./images/heroes/starlord/hero-starlord.jpg",
+    "description": "Питер Квилл — космический авантюрист, который живет бесконечными приключениями. Лидер команды «Стражи Галактики».",
+    "pictures": [
+        "./images/heroes/starlord/star_lord_in_avengers_infinity_war.jpg",
+        "./images/heroes/starlord/starlord2.jpg",
+        "./images/heroes/starlord/starlord3.jpg"
+    ]
+}

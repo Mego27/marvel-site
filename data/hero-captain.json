@@ -1,0 +1,14 @@
+{
+    "nickname": "Капитан Америка",
+    "name": "Стивен Роджерс",
+    "type": "Человек",
+    "growth": "187 см",
+    "weight": "108 кг",
+    "picture-src": "./images/heroes/captain/hero-captain.jpg",
+    "description": "Герой вне времени Стив Роджерс борется за свободу в качестве непоколебимого Капитана Америка.",
+    "pictures": [
+        "./images/heroes/captain/1.jpg",
+        "./images/heroes/captain/2.jpg",
+        "./images/heroes/captain/3.jpg"
+    ]
+}

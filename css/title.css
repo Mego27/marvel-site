@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+main {
+    margin: 0 5%;
+}
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5%;
+}
+.text-center {
+    text-align: center;
+    margin: 0 0 15% 0;
+}
+.workers {
+    align-self: flex-end;
+    text-align: right;
+}
+.pages {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.page {
+    height: 10vh;
+    width: 30%;
+    margin: 2vh 1vh;
+}
+.page a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 151, 255);
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in;
+}
+.page a:hover {
+    font-size: 1.5rem;
+    background-color:  rgb(187, 99, 245);
+}

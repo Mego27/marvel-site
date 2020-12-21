@@ -1,0 +1,14 @@
+{
+    "nickname": "Человек-Муравей",
+    "name": "Скотт Эдвард Харрис Лэнг",
+    "type": "Человек",
+    "growth": "183 см",
+    "weight": "86 кг",
+    "picture-src": "./images/heroes/antman/hero-antman.jpg",
+    "description": "Благодаря костюму, позволяющему ему менять размеры собственного тела  и при этом становиться сильнее, Скотт Лэнг стал супергероем, известным как Человек-Муравей.",
+    "pictures": [
+        "./images/heroes/antman/1.jpg",
+        "./images/heroes/antman/2.jpg",
+        "./images/heroes/antman/3.jpg"
+    ]
+}

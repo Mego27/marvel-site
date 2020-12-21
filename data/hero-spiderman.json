@@ -1,0 +1,14 @@
+{
+    "nickname": "Человек-Паук",
+    "name": "Питер Бенджамин Паркер",
+    "type": "Человек",
+    "growth": "183 см",
+    "weight": "71 кг",
+    "picture-src": "./images/heroes/spiderman/hero-spiderman.jpg",
+    "description": "Когда обычного подростка Питера Паркера укусил радиоактивный паук, его жизнь полностью изменилась. Теперь он борется с преступностью, скрываясь под маской Человека-Паука.",
+    "pictures": [
+        "./images/heroes/spiderman/1.jpg",
+        "./images/heroes/spiderman/2.jpg",
+        "./images/heroes/spiderman/3.jpg"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "nickname": "Грут",
+    "name": "Грут",
+    "type": "Инопланетянин",
+    "growth": "Изменяется",
+    "weight": "Изменяется",
+    "picture-src": "./images/heroes/groot/hero-groot.jpg",
+    "description": "Похожий на дерево пришелец Грут обладает невероятной физической силой, добрым сердцем и одной-единственной фразой в лексиконе.",
+    "pictures": [
+        "./images/heroes/groot/1.jpg",
+        "./images/heroes/groot/2.jpg",
+        "./images/heroes/groot/3.jpg"
+    ]
+}

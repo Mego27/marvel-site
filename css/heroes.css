@@ -1,0 +1,77 @@
+@import "./header.css";
+@import "./footer.css";
+
+body {
+    margin: 0;
+    font-size: 1em;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-heroes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+}
+.hero {
+    width: 20%;
+    min-width: 100px;
+    margin: 8vh 3% 0 3%;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    transition: all .2s ease-in;
+    overflow: hidden;
+}
+.hero:hover {
+    transform: scale(1.1, 1.1) translateZ(0);
+}
+.hero-image {
+    overflow: hidden;
+}
+.hero-image img {
+    width: 100%;
+}
+.hero-description p:nth-child(1) {
+    font-weight: bold;
+    font-size: calc(2px + 1.2vw);
+    color: black;
+}
+.hero-description p:nth-child(2) {
+    font-weight: lighter;
+    font-size: calc(2px + .8vw);
+    color: gray;
+}
+.extra {
+    display: none;
+}
+.btn-show-all {
+    width: 100%;
+}
+#show-all {
+    margin: 7vh auto 0;
+    display: block;
+    border: 0;
+    font-size: calc(2px + 1.7vw);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+#show-all:hover {
+    color: rgb(165, 165, 165);
+    transform: scale(.94, .94);
+}

@@ -1,0 +1,115 @@
+@import "./header.css";
+@import "./footer.css";
+
+body {
+    margin: 0;
+    font-size: 1em;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    margin: 5vw 0;
+    font-size: calc(18px + 1.4vw);
+}
+h3 {
+    margin: 5px 0;
+    font-size: calc(9px + 1vw);
+}
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-comic {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-and-info {
+    display: flex;
+}
+.logo-comic {
+    width: 30%;
+    overflow: hidden;
+}
+.logo-comic img {
+    width: 100%;
+}
+.info {
+    width: 70%;
+    margin-left: 20px;
+    font-size: calc(7px + 1vw);
+}
+.info-element {
+    display: flex;
+    align-items: center;
+}
+.info-element h3, .info-element p {
+    display: block;
+    
+    margin-right: 5px;
+}
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .logo-and-info {
+        flex-direction: column;
+    }
+    .logo-comic {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo-comic img {
+        width: auto;
+        height: 55vw;
+    }
+    .info {
+        width: 100%;
+        margin-left: 0;
+        margin: 20px 0;
+    }
+}
+
+.plot {
+    margin-top: 2vw;
+}
+.plot h3 {
+    margin: 0 auto 1vw;
+}
+.back-to-comics {
+    margin: 8vw 0 0 0;
+    width: 100%;   
+}
+.read-comic {
+    margin: 5vw 0 0 0;
+}
+.button-default {
+    display: block;
+    margin: auto;
+    border: 0;
+    font-size: calc(6px + 1.7vw);
+    text-transform: uppercase;
+    font-family: 'ApexMk3';
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+.button-default:hover {
+    color: rgb(165, 165, 165);
+    transform: scale(.94, .94);
+}
+.btn-read-comic {
+    font-size: calc(6px + 2.5vw);
+    padding: 10px 6vw;
+}

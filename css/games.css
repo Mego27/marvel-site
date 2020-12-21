@@ -1,0 +1,54 @@
+@import "./header.css";
+@import "./footer.css";
+
+body {
+    margin: 0;
+    font-size: 1em;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+}
+.game {
+    width: 30%;
+    min-width: 100px;
+    margin: 8vh 3% 0 3%;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    transition: all .2s ease-in;
+    overflow: hidden;
+}
+.game:hover {
+    transform: scale(1.1, 1.1) translateZ(0);
+}
+.game-image {
+    overflow: hidden;
+}
+.game-image img {
+    width: 100%;
+}
+.game-description p:nth-child(1) {
+    font-weight: bold;
+    font-size: calc(2px + 1.2vw);
+    color: black;
+}
+.game-description p:nth-child(2) {
+    font-weight: lighter;
+    font-size: calc(2px + .8vw);
+    color: gray;
+}

@@ -1,0 +1,14 @@
+{
+    "nickname": "Тор",
+    "name": "Тор сын Одина (Одинсон)",
+    "type": "Асгардец",
+    "growth": "201 см",
+    "weight": "290 кг",
+    "picture-src": "./images/heroes/tor/hero-tor.jpg",
+    "description": "Могущественный бог грома Тор, достойный носить величайшее оружие во вселенной – волшебный молот Мьёльнир — никогда не перестаёт сражаться за правое дело и защищать любимую Землю.",
+    "pictures": [
+        "./images/heroes/tor/1.jpg",
+        "./images/heroes/tor/2.jpg",
+        "./images/heroes/tor/3.jpg"
+    ]
+}

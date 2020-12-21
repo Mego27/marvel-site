@@ -1,0 +1,14 @@
+{
+    "nickname": "Соколиный глаз",
+    "name": "Клинтон Френсис Бартон",
+    "type": "Человек",
+    "growth": "180 см",
+    "weight": "100 кг",
+    "picture-src": "./images/heroes/hawkeye/hero-hawkeye.jpg",
+    "description": "Благодаря своей исключительной реакции, координации и меткости Соколиный Глаз — лучший стрелок и лучник, известный человечеству.",
+    "pictures": [
+        "./images/heroes/hawkeye/1.jpg",
+        "./images/heroes/hawkeye/2.jpg",
+        "./images/heroes/hawkeye/3.jpg"
+    ]
+}

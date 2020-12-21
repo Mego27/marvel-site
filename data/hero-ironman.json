@@ -1,0 +1,14 @@
+{
+    "nickname": "Железный человек",
+    "name": "Энтони Эдвард «Тони» Старк",
+    "type": "Человек",
+    "growth": "185 см",
+    "weight": "90 кг",
+    "picture-src": "./images/heroes/ironman/hero-ironman.jpg",
+    "description": "Эксцентричный гений, миллионер, дамский угодник и филантроп Тони Старк также является супергероем в броне, известным как Железный Человек. ",
+    "pictures": [
+        "./images/heroes/ironman/1.jpg",
+        "./images/heroes/ironman/2.jpg",
+        "./images/heroes/ironman/3.jpg"
+    ]
+}

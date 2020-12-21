@@ -1,0 +1,14 @@
+{
+    "nickname": "Доктор Стрэндж",
+    "name": "Стивен Винсент Стрэндж",
+    "type": "Человек",
+    "growth": "189 см",
+    "weight": "82 кг",
+    "picture-src": "./images/heroes/strange/hero-strange.jpg",
+    "description": "Когда страшная автокатастрофа поставила крест на карьере гениального нейрохирурга Стивена Стрэнджа, он обратился к мистическим практикам, которые навсегда изменили его жизнь.",
+    "pictures": [
+        "./images/heroes/strange/1.jpg",
+        "./images/heroes/strange/2.jpg",
+        "./images/heroes/strange/3.jpg"
+    ]
+}

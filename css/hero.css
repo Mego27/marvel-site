@@ -1,0 +1,141 @@
+@import "./header.css";
+@import "./footer.css";
+
+body {
+    margin: 0;
+    font-size: 1em;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    margin: 5vw 0;
+    font-size: calc(18px + 1.4vw);
+}
+h3 {
+    margin: 5px 0;
+    font-size: calc(10px + 1.2vw);
+}
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-hero {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-and-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logo-hero {
+    width: 40%;
+    overflow: hidden;
+}
+.logo-hero img {
+    width: 100%;
+}
+.info {
+    width: 60%;
+    padding-left: 4vw;
+    font-size: calc(10px + 1.2vw);
+}
+.info-element {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.info-element h3, .info-element p {
+    display: block;
+    margin-right: 5px;
+}
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .logo-and-info {
+        flex-direction: column;
+    }
+    .logo-hero {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo-hero img {
+        width: auto;
+        height: 55vw;
+    }
+    .info {
+        width: 100%;
+        padding-left: 0;
+        margin: 20px 0 0;
+    }
+}
+.tagline {
+    margin: 5vw 0 3vw;
+}
+.tagline-text {
+    font-style: italic;
+    font-size: calc(12px + 1.2vw);
+    text-align: center;
+}
+.images {
+    width: 100%;
+    margin-top: 4vw;
+}
+.images h3 {
+    margin: 0 auto 2vw;
+    text-align: center;
+    font-size: calc(14px + 1.2vw);
+}
+.images-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image {
+    /* width: 50vw; */
+    max-width: 50vw;
+    max-height: 37vw;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.extra {
+    display: none;
+}
+
+.back-to-films {
+    margin: 8vw 0 0 0;
+    width: 100%;    
+}
+.btn-back-to-films {
+    display: block;
+    margin: auto;
+    border: 0;
+    font-size: calc(6px + 1.7vw);
+    text-transform: uppercase;
+    font-family: 'ApexMk3';
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+.btn-back-to-films:hover {
+    color: rgb(165, 165, 165);
+    transform: scale(.94, .94);
+}

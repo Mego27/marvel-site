@@ -1,0 +1,69 @@
+@import "./header.css";
+@import "./footer.css";
+
+body {
+    margin: 0;
+    font-size: 1em;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-comics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+}
+.comic:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.comic {
+    width: 80%;
+    min-width: 100px;
+    padding: 2%;
+    margin: 3%;
+    display: flex;
+    transition: all .2s ease-in;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    max-height: 42vw;
+}
+.comic:hover {
+    transform: scale(1.04, 1.04) translateZ(0);
+    background-color: rgb(236, 236, 236);
+}
+.comic-image-title {
+    width: 35%;
+}
+.comic-image-title p {
+    font-size: calc(4px + 1.5vw);
+    text-align: center;
+    font-family: 'ApexMk3-ExtraLight';
+    font-weight: bold;
+    color: black;
+}
+.comic-image {
+    overflow: hidden;
+}
+.comic-image img {
+    width: 100%;
+}
+.comic-description {
+    margin: 2vw 0 0 0;
+    width: 65%;
+    padding: 0 3vw 0 3vw;
+    overflow: hidden;
+}
+.comic-description p {
+    font-size: calc(4px + 1vw);
+    color: black;
+}
